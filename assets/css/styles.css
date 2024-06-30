@@ -412,28 +412,16 @@ background-size: cover;
   margin-bottom: 1rem;
 }
 /* TEAM */
-
-.members {
+.platforms {
   display: flex;
-  gap: 3rem;
-}
-.member:nth-child(even) {
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
   margin-top: 5rem;
 }
-.member__img {
-  margin-bottom: 1rem;
-}
-.member__content h1 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 1rem;
-}
-.member__content p {
-  opacity: 0.7;
-  font-size: 1rem;
-  font-weight: 300;
-  margin-bottom: 1rem;
+.platform{
+  width: 150px;
 }
 /* TESTIMONIALS */
 
@@ -744,15 +732,8 @@ footer {
   }
 
   /* TEAM */
-  .members {
-    flex-direction: column;
-    text-align: center;
-  }
-  .member {
-    margin-top: 0 !important;
-  }
-  .member__img img {
-    max-width: 300px;
+  .platform{
+    width: 100px;
   }
 
   /* TESTIMONIALS */
